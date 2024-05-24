@@ -19,6 +19,7 @@ plt.show()
 
 x = np.random.rand(10)
 y = np.random.rand(10)
+print(x, y)
 #Создаём диаграмму рассеивания
 plt.scatter(x, y)
 plt.xlabel("ось Х")
