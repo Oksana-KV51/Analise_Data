@@ -17,7 +17,7 @@ print(f"Преобразованные данные сохранены в фай
 # Чтение CSV файла
 input_file = 'sofas_prices_converted.csv'
 prices = pd.read_csv(input_file)
-print(prices)
+print(f'средняя {prices.mean} рублей')
 
 # Построение гистограммы
 plt.figure(figsize=(10, 6))
